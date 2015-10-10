@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:id="@+id/androidParty"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="@string/happy_bday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/happyBday"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"/>
+    <TextView
+        android:text="@string/from_happy_bday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/fromHappyBday"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"/>
+
+
+
+</RelativeLayout>
